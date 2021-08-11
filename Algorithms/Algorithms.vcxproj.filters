@@ -25,6 +25,15 @@
     <Filter Include="소스 파일\2장\Calculator">
       <UniqueIdentifier>{4fda58ce-2ca5-470f-acdc-74a6d5b1ec46}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\3장">
+      <UniqueIdentifier>{046b205f-8043-4f5a-b655-bee455120bdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3장\CircularQueue">
+      <UniqueIdentifier>{fa746235-3467-4ca1-8760-f4d3f7ab4fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3장\LinkedQueue">
+      <UniqueIdentifier>{8ef0eb0b-de58-4d3a-9a75-4cc829bd6e8e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -45,6 +54,21 @@
     <ClCompile Include="Test_Calculator.c">
       <Filter>소스 파일\2장\Calculator</Filter>
     </ClCompile>
+    <ClCompile Include="CircularQueue.c">
+      <Filter>소스 파일\3장\CircularQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_CircularQueue.c">
+      <Filter>소스 파일\3장\CircularQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedQueue.c">
+      <Filter>소스 파일\3장\LinkedQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_LinkedQueue.c">
+      <Filter>소스 파일\3장\LinkedQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.h">
@@ -55,6 +79,12 @@
     </ClInclude>
     <ClInclude Include="Calculator.h">
       <Filter>소스 파일\2장\Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularQueue.h">
+      <Filter>소스 파일\3장\CircularQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedQueue.h">
+      <Filter>소스 파일\3장\LinkedQueue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
