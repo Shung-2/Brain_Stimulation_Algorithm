@@ -1,0 +1,11 @@
+﻿  ArrayStack.c
+  Calculator.c
+C:\Users\zlzlf\OneDrive\문서\GitHub\Brain_Stimulation_Algorithm\Algorithms\Calculator.c(84,1): warning C4267: '초기화 중': 'size_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Brain_Stimulation_Algorithm\Algorithms\Calculator.c(154,1): warning C4267: '초기화 중': 'size_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\zlzlf\OneDrive\문서\GitHub\Brain_Stimulation_Algorithm\Algorithms\Calculator.c(192,4): error C4996: 'gcvt': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _gcvt. See online help for details.
+  LinkedListStack.c
+  Test_ArrayStack.c
+  Test_Calculator.c
+C:\Users\zlzlf\OneDrive\문서\GitHub\Brain_Stimulation_Algorithm\Algorithms\Test_Calculator.c(16,2): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Test_LinkedListStack.c
+  코드를 생성하고 있습니다...
