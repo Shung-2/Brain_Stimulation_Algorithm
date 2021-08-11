@@ -1,0 +1,3 @@
+﻿  Calculator.c
+C:\Users\zlzlf\source\repos\Algorithms\Algorithms\Calculator.c(192,4): warning C4996: 'gcvt': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _gcvt. See online help for details.
+  Algorithms.vcxproj -> C:\Users\zlzlf\source\repos\Algorithms\Debug\Algorithms.exe
