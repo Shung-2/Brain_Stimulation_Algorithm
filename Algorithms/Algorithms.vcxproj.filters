@@ -34,6 +34,15 @@
     <Filter Include="소스 파일\3장\LinkedQueue">
       <UniqueIdentifier>{8ef0eb0b-de58-4d3a-9a75-4cc829bd6e8e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\4장">
+      <UniqueIdentifier>{0fb88a0d-8f88-4b29-8176-5b7a0f29dd4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4장\LCRSTree">
+      <UniqueIdentifier>{cf9394f3-aefc-40ff-99e2-7ae516e7ad15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4장\BinaryTree">
+      <UniqueIdentifier>{98e96bf3-200a-4878-a2eb-f890192ebd93}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -69,6 +78,18 @@
     <ClCompile Include="test.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="LCRSTree.c">
+      <Filter>소스 파일\4장\LCRSTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_LCRSTree.c">
+      <Filter>소스 파일\4장\LCRSTree</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTree.c">
+      <Filter>소스 파일\4장\BinaryTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_BinaryTree.c">
+      <Filter>소스 파일\4장\BinaryTree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.h">
@@ -85,6 +106,12 @@
     </ClInclude>
     <ClInclude Include="LinkedQueue.h">
       <Filter>소스 파일\3장\LinkedQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="LCRSTree.h">
+      <Filter>소스 파일\4장\LCRSTree</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTree.h">
+      <Filter>소스 파일\4장\BinaryTree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
