@@ -43,6 +43,12 @@
     <Filter Include="소스 파일\4장\BinaryTree">
       <UniqueIdentifier>{98e96bf3-200a-4878-a2eb-f890192ebd93}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\4장\ExpressionTree">
+      <UniqueIdentifier>{77a22a71-b07c-4919-b436-fab0f557facb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\4장\DisjointSet">
+      <UniqueIdentifier>{9d1c0bc4-2c97-4bb2-a11a-1f0502581a42}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -90,6 +96,18 @@
     <ClCompile Include="Test_BinaryTree.c">
       <Filter>소스 파일\4장\BinaryTree</Filter>
     </ClCompile>
+    <ClCompile Include="ExpressionTree.c">
+      <Filter>소스 파일\4장\ExpressionTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_ExpressionTree.c">
+      <Filter>소스 파일\4장\ExpressionTree</Filter>
+    </ClCompile>
+    <ClCompile Include="DisjointSet.c">
+      <Filter>소스 파일\4장\DisjointSet</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_DisjointSet.c">
+      <Filter>소스 파일\4장\DisjointSet</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.h">
@@ -112,6 +130,12 @@
     </ClInclude>
     <ClInclude Include="BinaryTree.h">
       <Filter>소스 파일\4장\BinaryTree</Filter>
+    </ClInclude>
+    <ClInclude Include="ExpressionTree.h">
+      <Filter>소스 파일\4장\ExpressionTree</Filter>
+    </ClInclude>
+    <ClInclude Include="DisjointSet.h">
+      <Filter>소스 파일\4장\DisjointSet</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
