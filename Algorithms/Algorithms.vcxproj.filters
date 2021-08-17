@@ -49,6 +49,21 @@
     <Filter Include="소스 파일\4장\DisjointSet">
       <UniqueIdentifier>{9d1c0bc4-2c97-4bb2-a11a-1f0502581a42}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\5장">
+      <UniqueIdentifier>{8c424443-636b-4f70-8333-f3f0995318c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5장\BubbleSort">
+      <UniqueIdentifier>{5370c392-4de5-420e-896e-c55ba8b87639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5장\InsertionSort">
+      <UniqueIdentifier>{dc9f6e45-80ce-4b9e-bc83-89635ddb8609}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5장\QuickSort">
+      <UniqueIdentifier>{28bf5b8e-e9cc-4e5e-a519-e0cd6802d223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5장\QuickSort2">
+      <UniqueIdentifier>{d0ad3c5d-a7d8-4c64-8ca5-78a81644ced1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -107,6 +122,18 @@
     </ClCompile>
     <ClCompile Include="Test_DisjointSet.c">
       <Filter>소스 파일\4장\DisjointSet</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.c">
+      <Filter>소스 파일\5장\BubbleSort</Filter>
+    </ClCompile>
+    <ClCompile Include="InsesrtionSort.c">
+      <Filter>소스 파일\5장\InsertionSort</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.c">
+      <Filter>소스 파일\5장\QuickSort</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort2.c">
+      <Filter>소스 파일\5장\QuickSort2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
