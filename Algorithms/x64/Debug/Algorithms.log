@@ -1,3 +1,8 @@
 ﻿  QuickSort2.c
+D:\7. GitHub Desktop\1. Brain Stimulation Algorithm\Algorithms\QuickSort2.c(58,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+D:\7. GitHub Desktop\1. Brain Stimulation Algorithm\Algorithms\QuickSort2.c(58,10): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+D:\7. GitHub Desktop\1. Brain Stimulation Algorithm\Algorithms\QuickSort2.c(62,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+D:\7. GitHub Desktop\1. Brain Stimulation Algorithm\Algorithms\QuickSort2.c(62,10): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+  test.cpp
+  LINK : D:\7. GitHub Desktop\1. Brain Stimulation Algorithm\x64\Debug\Algorithms.exe을(를) 찾을 수 없거나 마지막 증분 링크에 의해 빌드되지 않았습니다. 전체 링크를 수행하고 있습니다.
   Algorithms.vcxproj -> D:\7. GitHub Desktop\1. Brain Stimulation Algorithm\x64\Debug\Algorithms.exe
-﻿  Algorithms.vcxproj -> C:\Users\zlzlf\OneDrive\문서\GitHub\Brain_Stimulation_Algorithm\x64\Debug\Algorithms.exe
