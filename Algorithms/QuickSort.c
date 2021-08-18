@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+void Swap(int* A, int* B)
+{
+	int Temp = *A;
+	*A = *B;
+	*B = Temp;
+
 /*
 * P218번 3번 문제 & 4번 문제.
 * 3. QuickSotlc에서 Partition() 함수가 최악의 값을 피해 기준 요소를 선택하도록 개선하세요
@@ -17,13 +23,6 @@ int getMedian(int a, int b, int c)
     else if (a >= b && b >= c)
         return b;
     return c;
-}
-
-void Swap(int* A, int* B)
-{
-    int Temp = *A;
-    *A = *B;
-    *B = Temp;
 }
 
 int Partition(int DataSet[], int Left, int Right)

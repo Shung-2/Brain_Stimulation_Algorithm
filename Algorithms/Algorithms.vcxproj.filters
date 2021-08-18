@@ -50,22 +50,19 @@
       <UniqueIdentifier>{9d1c0bc4-2c97-4bb2-a11a-1f0502581a42}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\5장">
-      <UniqueIdentifier>{3e989d2f-1f1b-4e3a-8811-62eda47c01d1}</UniqueIdentifier>
+      <UniqueIdentifier>{8c424443-636b-4f70-8333-f3f0995318c5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\5장\QuickSort2">
-      <UniqueIdentifier>{522e2368-16f5-4bd3-984a-0a5eb05356ad}</UniqueIdentifier>
+    <Filter Include="소스 파일\5장\BubbleSort">
+      <UniqueIdentifier>{5370c392-4de5-420e-896e-c55ba8b87639}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\5장\콩쥐 문제">
-      <UniqueIdentifier>{90e9df1f-5fa0-49e3-b8f9-41ddea2088f6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\1장">
-      <UniqueIdentifier>{0c776796-eae7-4747-bad4-ce9c52b9976e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\1장\DoublyLinkedList">
-      <UniqueIdentifier>{ddb10fb8-83d3-4669-bde8-0c48678e45a4}</UniqueIdentifier>
+    <Filter Include="소스 파일\5장\InsertionSort">
+      <UniqueIdentifier>{dc9f6e45-80ce-4b9e-bc83-89635ddb8609}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\5장\QuickSort">
-      <UniqueIdentifier>{bdb75136-2729-424a-8d8e-4a8bad742b70}</UniqueIdentifier>
+      <UniqueIdentifier>{28bf5b8e-e9cc-4e5e-a519-e0cd6802d223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\5장\QuickSort2">
+      <UniqueIdentifier>{d0ad3c5d-a7d8-4c64-8ca5-78a81644ced1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -126,17 +123,17 @@
     <ClCompile Include="Test_DisjointSet.c">
       <Filter>소스 파일\4장\DisjointSet</Filter>
     </ClCompile>
-    <ClCompile Include="QuickSort2.c">
-      <Filter>소스 파일\5장\QuickSort2</Filter>
+    <ClCompile Include="BubbleSort.c">
+      <Filter>소스 파일\5장\BubbleSort</Filter>
     </ClCompile>
-    <ClCompile Include="DoublyLinkedList.c">
-      <Filter>소스 파일\1장\DoublyLinkedList</Filter>
-    </ClCompile>
-    <ClCompile Include="Test_DoublyLinkedList.c">
-      <Filter>소스 파일\1장\DoublyLinkedList</Filter>
+    <ClCompile Include="InsesrtionSort.c">
+      <Filter>소스 파일\5장\InsertionSort</Filter>
     </ClCompile>
     <ClCompile Include="QuickSort.c">
       <Filter>소스 파일\5장\QuickSort</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort2.c">
+      <Filter>소스 파일\5장\QuickSort2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -166,12 +163,6 @@
     </ClInclude>
     <ClInclude Include="DisjointSet.h">
       <Filter>소스 파일\4장\DisjointSet</Filter>
-    </ClInclude>
-    <ClInclude Include="Score.h">
-      <Filter>소스 파일\5장\콩쥐 문제</Filter>
-    </ClInclude>
-    <ClInclude Include="DoublyLInkedLIst.h">
-      <Filter>소스 파일\1장\DoublyLinkedList</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
