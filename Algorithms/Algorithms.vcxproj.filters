@@ -82,6 +82,15 @@
     <Filter Include="소스 파일\6장">
       <UniqueIdentifier>{59e91f9d-8f01-44f4-8290-d2eaac943161}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\6장\BinarySearch">
+      <UniqueIdentifier>{def3482e-da70-4378-bede-cfd7146d42cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\6장\BinarySearch2">
+      <UniqueIdentifier>{08dfdebe-2630-472f-aee2-76c0c098dd22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\6장\BinarySearchTree">
+      <UniqueIdentifier>{0f063118-d6da-42f3-bda3-c6fac4d0895d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -165,6 +174,18 @@
     <ClCompile Include="Test_CircularDoublyLinkedList.c">
       <Filter>소스 파일\1장\CircularDoublyLinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="BinarySearch.c">
+      <Filter>소스 파일\6장\BinarySearch</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearch2.c">
+      <Filter>소스 파일\6장\BinarySearch2</Filter>
+    </ClCompile>
+    <ClCompile Include="BinarySearchTree.c">
+      <Filter>소스 파일\6장\BinarySearchTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_BinarySearchTree.c">
+      <Filter>소스 파일\6장\BinarySearchTree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.h">
@@ -205,6 +226,9 @@
     </ClInclude>
     <ClInclude Include="CircularDoublyLinkedList.h">
       <Filter>소스 파일\1장\CircularDoublyLinkedList</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearchTree.h">
+      <Filter>소스 파일\6장\BinarySearchTree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
