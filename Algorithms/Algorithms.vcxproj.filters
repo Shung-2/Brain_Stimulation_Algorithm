@@ -91,6 +91,9 @@
     <Filter Include="소스 파일\6장\BinarySearchTree">
       <UniqueIdentifier>{0f063118-d6da-42f3-bda3-c6fac4d0895d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\6장\RedBlackTree">
+      <UniqueIdentifier>{796149ac-122c-4852-a43e-105334708416}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -186,6 +189,12 @@
     <ClCompile Include="Test_BinarySearchTree.c">
       <Filter>소스 파일\6장\BinarySearchTree</Filter>
     </ClCompile>
+    <ClCompile Include="RedBlackTree.c">
+      <Filter>소스 파일\6장\RedBlackTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_RedBlackTree.c">
+      <Filter>소스 파일\6장\RedBlackTree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.h">
@@ -229,6 +238,9 @@
     </ClInclude>
     <ClInclude Include="BinarySearchTree.h">
       <Filter>소스 파일\6장\BinarySearchTree</Filter>
+    </ClInclude>
+    <ClInclude Include="RedBlackTree.h">
+      <Filter>소스 파일\6장\RedBlackTree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
