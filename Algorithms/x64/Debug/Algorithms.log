@@ -1,6 +1,2 @@
-﻿  Heap.c
-C:\Users\zlzlf\OneDrive\문서\GitHub\Brain_Stimulation_Algorithm\Algorithms\Heap.c(10,8): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
-C:\Users\zlzlf\OneDrive\문서\GitHub\Brain_Stimulation_Algorithm\Algorithms\Heap.c(10,8): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
-  Test_Heap.c
-  코드를 생성하고 있습니다...
+﻿  Test_SimpleHashTable.c
   Algorithms.vcxproj -> C:\Users\zlzlf\OneDrive\문서\GitHub\Brain_Stimulation_Algorithm\x64\Debug\Algorithms.exe

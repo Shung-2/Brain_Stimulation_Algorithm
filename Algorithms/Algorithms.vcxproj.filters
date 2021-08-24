@@ -100,6 +100,15 @@
     <Filter Include="소스 파일\7장\Heap">
       <UniqueIdentifier>{d2ef92bf-a6f4-40c6-b946-154f8b83c006}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\7장\PriorityQueue">
+      <UniqueIdentifier>{b58f4890-7831-4cfc-92cd-951580989f6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\8장">
+      <UniqueIdentifier>{6f3614d9-6718-4aad-a3d2-413f106c7fb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\8장\SimpleHashTable">
+      <UniqueIdentifier>{53d40977-0b0f-4fa0-8c93-2934c8037718}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -207,6 +216,18 @@
     <ClCompile Include="Test_Heap.c">
       <Filter>소스 파일\7장\Heap</Filter>
     </ClCompile>
+    <ClCompile Include="PriorityQueue.c">
+      <Filter>소스 파일\7장\PriorityQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_PriorityQueue.c">
+      <Filter>소스 파일\7장\PriorityQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleHashTable.c">
+      <Filter>소스 파일\8장\SimpleHashTable</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_SimpleHashTable.c">
+      <Filter>소스 파일\8장\SimpleHashTable</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.h">
@@ -256,6 +277,12 @@
     </ClInclude>
     <ClInclude Include="Heap.h">
       <Filter>소스 파일\7장\Heap</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>소스 파일\7장\PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleHashTable.h">
+      <Filter>소스 파일\8장\SimpleHashTable</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
