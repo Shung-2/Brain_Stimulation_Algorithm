@@ -1,27 +1,31 @@
 //#include <iostream>
-//#include <string>
 //using namespace std;
 //
 //int main()
 //{
-//	cin.tie(NULL);
-//	ios::sync_with_stdio(false);
+//    cin.tie(NULL);
+//    ios::sync_with_stdio(false);
 //
-//	int T, R;
-//	string S;
-//	
-//	cin >> T;
-//	for (int i = 0; i < T; i++)
-//	{
-//		cin >> R >> S;
-//		for (int j = 0; j < S.length(); j++)
-//		{
-//			for (int k = 0; k < R; k++)
-//			{
-//				cout << S[j];
-//			}
-//		}
-//		cout << endl;
-//	}
-//	return 0;
+//    int num, numTemp, count = 0;
+//    int firstNum, secondNum, sumNum = 0;
+//
+//    cin >> num;
+//    if (10 > num)
+//        num *= 10;
+//
+//    numTemp = num;
+//
+//    while (true)
+//    {
+//        firstNum = numTemp / 10;
+//        secondNum = numTemp % 10;
+//        sumNum = (firstNum + secondNum) % 10;
+//        numTemp = (secondNum * 10) + sumNum;
+//        count++;
+//        if (num == numTemp)
+//            break;
+//    }
+//    cout << count;
+//
+//    return 0;
 //}

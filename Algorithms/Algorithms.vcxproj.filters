@@ -109,6 +109,9 @@
     <Filter Include="소스 파일\8장\SimpleHashTable">
       <UniqueIdentifier>{53d40977-0b0f-4fa0-8c93-2934c8037718}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\8장\Chaining">
+      <UniqueIdentifier>{d218fb83-4f6b-42ec-b272-91b925ba747a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -228,6 +231,12 @@
     <ClCompile Include="Test_SimpleHashTable.c">
       <Filter>소스 파일\8장\SimpleHashTable</Filter>
     </ClCompile>
+    <ClCompile Include="Chaining.c">
+      <Filter>소스 파일\8장\Chaining</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_Chaining.c">
+      <Filter>소스 파일\8장\Chaining</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.h">
@@ -283,6 +292,9 @@
     </ClInclude>
     <ClInclude Include="SimpleHashTable.h">
       <Filter>소스 파일\8장\SimpleHashTable</Filter>
+    </ClInclude>
+    <ClInclude Include="Chaining.h">
+      <Filter>소스 파일\8장\Chaining</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
