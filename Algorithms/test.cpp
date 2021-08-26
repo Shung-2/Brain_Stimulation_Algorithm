@@ -6,26 +6,26 @@
 //    cin.tie(NULL);
 //    ios::sync_with_stdio(false);
 //
-//    int num, numTemp, count = 0;
-//    int firstNum, secondNum, sumNum = 0;
+//    int n = 0, ArrayNum = 0;
+//    
+//    cin >> n;
+//    int Array[n];
 //
-//    cin >> num;
-//    if (10 > num)
-//        num *= 10;
-//
-//    numTemp = num;
-//
-//    while (true)
+//    for (int i = 0; i < n; i++)
 //    {
-//        firstNum = numTemp / 10;
-//        secondNum = numTemp % 10;
-//        sumNum = (firstNum + secondNum) % 10;
-//        numTemp = (secondNum * 10) + sumNum;
-//        count++;
-//        if (num == numTemp)
-//            break;
+//        cin >> ArrayNum;
+//        Array[i] = ArrayNum;
 //    }
-//    cout << count;
 //
+//    int Min = Array[0];
+//    int Max = Array[0];
+//
+//    for (int i = 0; i < n; i++)
+//    {
+//        if (Array[i] < Min) Min = Array[i];
+//        if (Array[i] > Max) Max = Array[i];
+//    }
+//
+//    cout << Min << " " << Max;
 //    return 0;
 //}
