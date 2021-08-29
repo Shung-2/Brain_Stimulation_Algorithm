@@ -6,20 +6,22 @@
 //    cin.tie(NULL);
 //    ios::sync_with_stdio(false);
 //
-//    int Array[9];
-//    int Max = Array[0];
-//    int Count = 0;
-//    
-//    for (int i = 0; i < 9; i++)
+//    int A, B, C;
+//    int Array[10] = { 0 };
+//
+//    cin >> A >> B >> C;
+//    int Result = A * B * C;
+//
+//    while (Result != 0)
 //    {
-//        cin >> Array[i];
-//        if (Array[i] > Max)
-//        {
-//            Max = Array[i];
-//            Count = i + 1;
-//        }
+//        Array[Result % 10] += 1;
+//        Result /= 10;
 //    }
-//    cout << Max << "\n" << Count;
+//
+//    for (int i = 0; i < 10; i++)
+//    {
+//        cout << Array[i] << "\n";
+//    }
 //
 //    return 0;
 //}
