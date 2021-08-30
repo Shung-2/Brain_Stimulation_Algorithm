@@ -121,6 +121,9 @@
     <Filter Include="소스 파일\9장\Graph">
       <UniqueIdentifier>{ac2cd4cc-5f96-4532-bb57-08b412d58c60}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\9장\GraphTraversal">
+      <UniqueIdentifier>{527645a7-a057-4fc9-87e5-989ef3a887f4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -258,6 +261,12 @@
     <ClCompile Include="Test.Graph.c">
       <Filter>소스 파일\9장\Graph</Filter>
     </ClCompile>
+    <ClCompile Include="GraphTraversal.c">
+      <Filter>소스 파일\9장\GraphTraversal</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_GraphTraversal.c">
+      <Filter>소스 파일\9장\GraphTraversal</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.h">
@@ -322,6 +331,9 @@
     </ClInclude>
     <ClInclude Include="Graph.h">
       <Filter>소스 파일\9장\Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphTraversal.h">
+      <Filter>소스 파일\9장\GraphTraversal</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
