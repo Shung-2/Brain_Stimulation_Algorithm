@@ -127,6 +127,9 @@
     <Filter Include="소스 파일\9장\TopologicalSort">
       <UniqueIdentifier>{ba6de762-af83-4d90-af69-2ec160f3bb1f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\9장\MinimumSpanningTree">
+      <UniqueIdentifier>{b103b3a1-6cf4-4389-ad7b-e7c3f6d8d212}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -276,6 +279,12 @@
     <ClCompile Include="Test_TopologicalSort.c">
       <Filter>소스 파일\9장\TopologicalSort</Filter>
     </ClCompile>
+    <ClCompile Include="MST.c">
+      <Filter>소스 파일\9장\MinimumSpanningTree</Filter>
+    </ClCompile>
+    <ClCompile Include="TEST_MST.c">
+      <Filter>소스 파일\9장\MinimumSpanningTree</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.h">
@@ -346,6 +355,9 @@
     </ClInclude>
     <ClInclude Include="TopologicalSort.h">
       <Filter>소스 파일\9장\TopologicalSort</Filter>
+    </ClInclude>
+    <ClInclude Include="MST.h">
+      <Filter>소스 파일\9장\MinimumSpanningTree</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
