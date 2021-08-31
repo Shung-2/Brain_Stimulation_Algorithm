@@ -1,7 +1,18 @@
 #include "LinkedList.h"
 
 /*  노드 생성 */
-Node* SLL_CreateNode(ElementType NewData)
+//Node* SLL_CreateNode(ElementType NewData)
+//{
+//    Node* NewNode = (Node*)malloc(sizeof(Node));
+//
+//    NewNode->Data = NewData;  /*  데이터를 저장한다. */
+//    NewNode->NextNode = NULL; /*  다음 노드에 대한 포인터는 NULL로 초기화 한다. */
+//
+//    return NewNode;/*  노드의 주소를 반환한다. */
+//}
+
+/*  노드 생성 */
+Node* SLL_CreateNode(Vertex* NewData)
 {
     Node* NewNode = (Node*)malloc(sizeof(Node));
 
@@ -39,42 +50,82 @@ void SLL_AppendNode(Node** Head, Node* NewNode)
 }
 
 /*  노드 삽입 */
-void SLL_InsertAfter(Node* Current, Node* NewNode)
+//void SLL_InsertAfter(Node* Current, Node* NewNode)
+//{
+//    NewNode->NextNode = Current->NextNode;
+//    Current->NextNode = NewNode;
+//}
+
+/*  노드 삽입 */
+void SLL_InsertAfter(Node** Current, Node** NewNode)
 {
-    NewNode->NextNode = Current->NextNode;
-    Current->NextNode = NewNode;
+    (*NewNode)->NextNode = (*Current)->NextNode;
+    (*Current)->NextNode = *NewNode;
 }
 
-void  SLL_InsertNewHead(Node** Head, Node* NewHead)
+//void SLL_InsertNewHead(Node** Head, Node* NewHead)
+//{
+//    if (Head == NULL)
+//    {
+//        (*Head) = NewHead;
+//    }
+//    else
+//    {
+//        NewHead->NextNode = (*Head);
+//        (*Head) = NewHead;
+//    }
+//}
+
+void SLL_InsertNewHead(Node** Head, Node** NewHead)
 {
     if (Head == NULL)
     {
-        (*Head) = NewHead;
+        (*Head) = (*NewHead);
     }
     else
     {
-        NewHead->NextNode = (*Head);
-        (*Head) = NewHead;
+        (*NewHead)->NextNode = (*Head);
+        (*Head) = (*NewHead);
     }
 }
 
 /*  노드 제거 */
-void SLL_RemoveNode(Node** Head, Node* Remove)
+//void SLL_RemoveNode(Node** Head, Node* Remove)
+//{
+//    if (*Head == Remove)
+//    {
+//        *Head = Remove->NextNode;
+//    }
+//    else
+//    {
+//        Node* Current = *Head;
+//        while (Current != NULL && Current->NextNode != Remove)
+//        {
+//            Current = Current->NextNode;
+//        }
+//
+//        if (Current != NULL)
+//            Current->NextNode = Remove->NextNode;
+//    }
+//}
+
+/*  노드 제거 */
+void SLL_RemoveNode(Node** Head, Node** Remove)
 {
-    if (*Head == Remove)
+    if (*Head == *Remove)
     {
-        *Head = Remove->NextNode;
+        *Head = (*Remove)->NextNode;
     }
     else
     {
         Node* Current = *Head;
-        while (Current != NULL && Current->NextNode != Remove)
+        while (Current != NULL && Current->NextNode != (*Remove))
         {
             Current = Current->NextNode;
         }
 
         if (Current != NULL)
-            Current->NextNode = Remove->NextNode;
+            Current->NextNode = (*Remove)->NextNode;
     }
 }
 

@@ -23,6 +23,7 @@ void DestroyGraph(Graph* G)
 Vertex* CreateVertex(ElementType Data)
 {
 	Vertex* V = (Vertex*)malloc(sizeof(Vertex));
+
 	V->Data = Data;
 	V->Next = NULL;
 	V->AdjacencyList = NULL;

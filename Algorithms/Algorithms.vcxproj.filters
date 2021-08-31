@@ -124,6 +124,9 @@
     <Filter Include="소스 파일\9장\GraphTraversal">
       <UniqueIdentifier>{527645a7-a057-4fc9-87e5-989ef3a887f4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\9장\TopologicalSort">
+      <UniqueIdentifier>{ba6de762-af83-4d90-af69-2ec160f3bb1f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -267,6 +270,12 @@
     <ClCompile Include="Test_GraphTraversal.c">
       <Filter>소스 파일\9장\GraphTraversal</Filter>
     </ClCompile>
+    <ClCompile Include="TopologicalSort.c">
+      <Filter>소스 파일\9장\TopologicalSort</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_TopologicalSort.c">
+      <Filter>소스 파일\9장\TopologicalSort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.h">
@@ -334,6 +343,9 @@
     </ClInclude>
     <ClInclude Include="GraphTraversal.h">
       <Filter>소스 파일\9장\GraphTraversal</Filter>
+    </ClInclude>
+    <ClInclude Include="TopologicalSort.h">
+      <Filter>소스 파일\9장\TopologicalSort</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
