@@ -130,6 +130,9 @@
     <Filter Include="소스 파일\9장\MinimumSpanningTree">
       <UniqueIdentifier>{b103b3a1-6cf4-4389-ad7b-e7c3f6d8d212}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\9장\Dijkstra">
+      <UniqueIdentifier>{ebef40a9-5fd6-450a-a378-ad36e142d5d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -285,6 +288,12 @@
     <ClCompile Include="TEST_MST.c">
       <Filter>소스 파일\9장\MinimumSpanningTree</Filter>
     </ClCompile>
+    <ClCompile Include="ShortestPath.c">
+      <Filter>소스 파일\9장\Dijkstra</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_ShortestPath.c">
+      <Filter>소스 파일\9장\Dijkstra</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.h">
@@ -358,6 +367,9 @@
     </ClInclude>
     <ClInclude Include="MST.h">
       <Filter>소스 파일\9장\MinimumSpanningTree</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortestPath.h">
+      <Filter>소스 파일\9장\Dijkstra</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
