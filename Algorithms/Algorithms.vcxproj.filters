@@ -133,6 +133,15 @@
     <Filter Include="소스 파일\9장\Dijkstra">
       <UniqueIdentifier>{ebef40a9-5fd6-450a-a378-ad36e142d5d1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\10장">
+      <UniqueIdentifier>{85156dd1-d40b-44d7-b0bb-e0a47a777c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10장\BruteForce">
+      <UniqueIdentifier>{3de5f5fd-1772-48e0-8fd9-c5cc48bab8fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10장\KarpRabin">
+      <UniqueIdentifier>{bc4d75a3-2eb4-44e6-b9d8-0238fd938350}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -294,6 +303,18 @@
     <ClCompile Include="Test_ShortestPath.c">
       <Filter>소스 파일\9장\Dijkstra</Filter>
     </ClCompile>
+    <ClCompile Include="BruteFroce.c">
+      <Filter>소스 파일\10장\BruteForce</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_BruteForce.c">
+      <Filter>소스 파일\10장\BruteForce</Filter>
+    </ClCompile>
+    <ClCompile Include="KarpRabin.c">
+      <Filter>소스 파일\10장\KarpRabin</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_KarpRabin.c">
+      <Filter>소스 파일\10장\KarpRabin</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.h">
@@ -371,5 +392,16 @@
     <ClInclude Include="ShortestPath.h">
       <Filter>소스 파일\9장\Dijkstra</Filter>
     </ClInclude>
+    <ClInclude Include="BruteForce.h">
+      <Filter>소스 파일\10장\BruteForce</Filter>
+    </ClInclude>
+    <ClInclude Include="KarpRabin.h">
+      <Filter>소스 파일\10장\KarpRabin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\바탕 화면\source\source_뇌자극알고리즘_7쇄\10장\kjv.txt">
+      <Filter>소스 파일\10장</Filter>
+    </Text>
   </ItemGroup>
 </Project>
