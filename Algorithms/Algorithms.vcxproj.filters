@@ -142,6 +142,12 @@
     <Filter Include="소스 파일\10장\KarpRabin">
       <UniqueIdentifier>{bc4d75a3-2eb4-44e6-b9d8-0238fd938350}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\10장\KnuthMorrisPratt">
+      <UniqueIdentifier>{60951370-cdcb-4e95-863e-579ea7a80c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\10장\BoyerMoore">
+      <UniqueIdentifier>{9cdfcbbf-418a-4592-9c3b-5b5cfbdda7d8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -315,6 +321,18 @@
     <ClCompile Include="Test_KarpRabin.c">
       <Filter>소스 파일\10장\KarpRabin</Filter>
     </ClCompile>
+    <ClCompile Include="KnuthMorrisPratt.c">
+      <Filter>소스 파일\10장\KnuthMorrisPratt</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_KnuthMorrisPratt.c">
+      <Filter>소스 파일\10장\KnuthMorrisPratt</Filter>
+    </ClCompile>
+    <ClCompile Include="BoyerMoore.c">
+      <Filter>소스 파일\10장\BoyerMoore</Filter>
+    </ClCompile>
+    <ClCompile Include="Test_BoyerMoore.c">
+      <Filter>소스 파일\10장\BoyerMoore</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ArrayStack.h">
@@ -397,6 +415,12 @@
     </ClInclude>
     <ClInclude Include="KarpRabin.h">
       <Filter>소스 파일\10장\KarpRabin</Filter>
+    </ClInclude>
+    <ClInclude Include="KnuthMorrisPratt.h">
+      <Filter>소스 파일\10장\KnuthMorrisPratt</Filter>
+    </ClInclude>
+    <ClInclude Include="BoyerMoore.h">
+      <Filter>소스 파일\10장\BoyerMoore</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
