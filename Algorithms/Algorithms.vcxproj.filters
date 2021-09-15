@@ -148,6 +148,21 @@
     <Filter Include="소스 파일\10장\BoyerMoore">
       <UniqueIdentifier>{9cdfcbbf-418a-4592-9c3b-5b5cfbdda7d8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\11장">
+      <UniqueIdentifier>{d36f4ebf-d52e-4c4b-9076-124b7986d92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\11장\MergeSort">
+      <UniqueIdentifier>{16e3f939-8c71-4911-8716-5fce2aef5934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\12장">
+      <UniqueIdentifier>{8f3f4170-2e8d-42ba-937a-53b3bc7c8d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\12장\FastExponentiation">
+      <UniqueIdentifier>{bb90e3ed-5d78-4f1d-bdf1-3069ae17e4ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\12장\FibonacciDnc">
+      <UniqueIdentifier>{5d5fb646-458b-4d73-a66f-6b9cb45e9b23}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -332,6 +347,15 @@
     </ClCompile>
     <ClCompile Include="Test_BoyerMoore.c">
       <Filter>소스 파일\10장\BoyerMoore</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.c">
+      <Filter>소스 파일\11장\MergeSort</Filter>
+    </ClCompile>
+    <ClCompile Include="FastExponentiation.c">
+      <Filter>소스 파일\12장\FastExponentiation</Filter>
+    </ClCompile>
+    <ClCompile Include="FibonacciDnc.c">
+      <Filter>소스 파일\12장\FibonacciDnc</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
