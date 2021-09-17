@@ -163,6 +163,15 @@
     <Filter Include="소스 파일\12장\FibonacciDnc">
       <UniqueIdentifier>{5d5fb646-458b-4d73-a66f-6b9cb45e9b23}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\13장">
+      <UniqueIdentifier>{7e599652-8fc9-4574-b178-19a03684d393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\13장\FibonacciDP">
+      <UniqueIdentifier>{7038d976-410e-4a46-9f65-d28c10036a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\13장\LCSDP">
+      <UniqueIdentifier>{f2d20835-b19a-4cc8-a708-51dec2d68bd0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ArrayStack.c">
@@ -356,6 +365,12 @@
     </ClCompile>
     <ClCompile Include="FibonacciDnc.c">
       <Filter>소스 파일\12장\FibonacciDnc</Filter>
+    </ClCompile>
+    <ClCompile Include="FibonacciDP.c">
+      <Filter>소스 파일\13장\FibonacciDP</Filter>
+    </ClCompile>
+    <ClCompile Include="LCSDP.c">
+      <Filter>소스 파일\13장\LCSDP</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
